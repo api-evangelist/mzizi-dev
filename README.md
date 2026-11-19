@@ -1,4 +1,4 @@
-# mzizi-dev
+# Mzizi
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-mzizi-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://mzizi.dev/
+Mzizi is a general‑purpose programming language project aimed at improving the Rust developer experience by removing the need for borrows, lifetimes and ownership in user code. It provides a CLI, component library, and a compiler that translates Mzizi code into Rust, enabling rapid UI component development and future backend capabilities. The project is open‑source, currently in a research prototype phase, with benchmarks and tooling publicly available.
+
+**Areas:** Programming Language · Open Source · Rust · Compiler · UI Components
+
+## Mzizi on APIs.io
+
+Everything profiled for Mzizi is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/mzizi-dev/](https://apis.io/providers/mzizi-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (7)
+
+- [Mzizi Architecture API](https://apis.io/apis/mzizi-dev/mzizi-dev-architecture-api/) — Ecosystem architecture, data layer, pipeline, sovereignty, the DNA-helix frontend model
+- [Mzizi Brand API](https://apis.io/apis/mzizi-dev/mzizi-dev-brand-api/) — The Mzizi brand system: 21 colour families (7 minerals, 7 heritage tones, 7 experimental tones), each with its `-text` values, plus typography, spacing and…
+- [Mzizi Content API](https://apis.io/apis/mzizi-dev/mzizi-dev-content-api/) — Documentation pages, changelog, AI instructions
+- [Mzizi Discovery API](https://apis.io/apis/mzizi-dev/mzizi-dev-discovery-api/) — API metadata, health, search, stats
+- [Mzizi MCP API](https://apis.io/apis/mzizi-dev/mzizi-dev-mcp-api/) — Model Context Protocol server for AI assistants
+- [Mzizi Registry API](https://apis.io/apis/mzizi-dev/mzizi-dev-registry-api/) — Component registry (shadcn-compatible)
+- [Mzizi Ubuntu API](https://apis.io/apis/mzizi-dev/mzizi-dev-ubuntu-api/) — Ubuntu doctrine — Five Pillars and Five Principles
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Mzizi Agentic Access](https://apis.io/agentic-access/mzizi-dev/mzizi-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ApiDiscovery](https://apis.io/schemas/mzizi-dev/mzizi-dev-api-discovery/)
+- [BrandSystem](https://apis.io/schemas/mzizi-dev/mzizi-dev-brand-system/)
+- [ChangelogEntry](https://apis.io/schemas/mzizi-dev/mzizi-dev-changelog-entry/)
+- [DataLayerArchitecture](https://apis.io/schemas/mzizi-dev/mzizi-dev-data-layer-architecture/)
+- [RegistryItem](https://apis.io/schemas/mzizi-dev/mzizi-dev-registry-item/)
+- [SovereigntyReport](https://apis.io/schemas/mzizi-dev/mzizi-dev-sovereignty-report/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Mzizi Dev Context](https://apis.io/jsonld/mzizi-dev/mzizi-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Mzizi API Rules](https://apis.io/rules/mzizi-dev/mzizi-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Mzizi Domain Security](https://apis.io/security/mzizi-dev/mzizi-dev-domain-security/)
+- [Mzizi Vulnerability Disclosure](https://apis.io/security/mzizi-dev/mzizi-dev-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://mzizi.dev/)
+- [Documentation](https://docs.mzizi.dev/)
+- [Getting started](https://mzizi.dev/language)
+- [API reference](https://api.mzizi.dev/v1/ui)
+- [Changelog](https://github.com/mzizi-dev/mzizi/releases/tag/v0.9.0)
+- [Security](https://github.com/mzizi-dev/mzizi-site/blob/main/SECURITY.md)
+- [Terms of service](https://mzizi.dev/legal/terms)
+- [Privacy policy](https://mzizi.dev/legal/privacy)
+- [GitHub](https://github.com/mzizi-dev)
+- [Status](https://docs.mzizi.dev/status)
+
+## API Evangelist rating
+
+**Kin Score 51.9** — developing · rubric 0.27.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 54.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 47.6 |
+| Access clarity | 21.1 |
+
+**Agent readiness 54.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/mzizi-dev/](https://apis.io/providers/mzizi-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Mzizi: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/mzizi-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
